@@ -2,7 +2,7 @@ baseURL = "https://jjmstark.github.io/website/"
 languageCode = "en-us"
 title = "0xstark"
 theme = "PaperMod"
-
+mainSections = ["posts"]
 
 [params]
   defaultTheme = "light"
@@ -12,7 +12,7 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowToc = false
-  mainSections = ["posts"]
+  
   
 
 
