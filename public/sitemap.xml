@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/website/</loc>
     <lastmod>2025-11-14T11:14:28-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/trustexperience/</loc>
+    <loc>http://localhost:1313/website/posts/trustexperience/</loc>
     <lastmod>2025-11-14T11:14:28-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/website/posts/</loc>
     <lastmod>2025-11-14T11:14:28-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/legalcontracts/</loc>
+    <loc>http://localhost:1313/website/posts/legalcontracts/</loc>
     <lastmod>2025-11-14T14:17:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ethereum/</loc>
+    <loc>http://localhost:1313/website/tags/ethereum/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hardness/</loc>
+    <loc>http://localhost:1313/website/posts/hardness/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hardness/</loc>
+    <loc>http://localhost:1313/website/tags/hardness/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/website/tags/</loc>
     <lastmod>2024-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bitcointxvolume/</loc>
+    <loc>http://localhost:1313/website/posts/bitcointxvolume/</loc>
     <lastmod>2022-04-26T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/aib/</loc>
+    <loc>http://localhost:1313/website/posts/aib/</loc>
     <lastmod>2022-04-13T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>http://localhost:1313/website/tags/security/</loc>
     <lastmod>2022-04-13T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/yie2021/</loc>
+    <loc>http://localhost:1313/website/posts/yie2021/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/year-in-ethereum/</loc>
+    <loc>http://localhost:1313/website/tags/year-in-ethereum/</loc>
     <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/yie2020/</loc>
+    <loc>http://localhost:1313/website/posts/yie2020/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/yie2019/</loc>
+    <loc>http://localhost:1313/website/posts/yie2019/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/website/categories/</loc>
   </url>
 </urlset>
