@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Year-in-Ethereum on 0xstark</title>
+    <link>http://localhost:1313/tags/year-in-ethereum/</link>
+    <description>Recent content in Year-in-Ethereum on 0xstark</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/year-in-ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Year in Ethereum 2021</title>
+      <link>http://localhost:1313/posts/yie2021.backup.20251114t141148/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/yie2021.backup.20251114t141148/</guid>
+      <description>The Year in Ethereum 2021</description>
+    </item>
+    <item>
+      <title>The Year in Ethereum 2021</title>
+      <link>http://localhost:1313/posts/yie2021/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/yie2021/</guid>
+      <description>The Year in Ethereum 2021</description>
+    </item>
+  </channel>
+</rss>
