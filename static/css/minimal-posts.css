@@ -5,18 +5,37 @@
     display: none !important;
 }
 
+/* Hide post content/excerpts */
+.post-entry .entry-content {
+    display: none !important;
+}
+
 /* Make post entries much more compact - single line style */
 .post-entry {
+    position: relative !important;
     padding: 8px 0 !important;
     margin-bottom: 4px !important;
     border: none !important;
     background: transparent !important;
     border-radius: 0 !important;
+    display: block !important; /* Keep as block, not flex */
 }
 
-/* Hide post content/excerpts */
-.post-entry .entry-content {
-    display: none !important;
+/* Style the entry link to cover the whole area */
+.post-entry .entry-link {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    z-index: 10 !important;
+}
+
+/* Create a single line layout using inline elements */
+.post-entry .entry-header,
+.post-entry .entry-footer {
+    display: inline !important;
+    margin: 0 !important;
 }
 
 /* Make post titles inline and smaller */
@@ -28,29 +47,27 @@
     line-height: 1.2 !important;
 }
 
-/* Style post footer (date/reading time) to appear first, inline */
+/* Style post footer (date/reading time) to appear first */
 .post-entry .entry-footer {
-    display: inline !important;
-    margin-right: 12px !important;
     font-size: 14px !important;
     color: #666 !important;
+    margin-right: 12px !important;
 }
 
-/* Reorder: make footer appear before header using flexbox */
-.post-entry {
-    display: flex !important;
-    align-items: baseline !important;
-    gap: 0 !important;
-}
-
+/* Use CSS to reorder: footer first, then header */
 .post-entry .entry-footer {
-    order: 1 !important;
-    flex-shrink: 0 !important;
+    float: left !important;
 }
 
 .post-entry .entry-header {
-    order: 2 !important;
-    margin: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Clear floats */
+.post-entry::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Remove hover effects */
@@ -60,21 +77,6 @@
 
 .post-entry:hover {
     background: transparent !important;
-}
-
-/* Keep the entry link functional but invisible overlay */
-.post-entry .entry-link {
-    position: absolute !important;
-    left: 0 !important;
-    right: 0 !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    z-index: 1 !important;
-}
-
-/* Make the post entry relative positioned for absolute link */
-.post-entry {
-    position: relative !important;
 }
 
 /* Make sure dates are formatted consistently */
