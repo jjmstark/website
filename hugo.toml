@@ -4,6 +4,10 @@ title = "0xstark"
 theme = "PaperMod"
 mainSections = ["posts"]
 
+# Ensure build artifacts go to the right place
+publishDir = "public"
+workingDir = "."
+
 [params]
   defaultTheme = "light"
   ShowReadingTime = true
