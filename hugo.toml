@@ -13,8 +13,6 @@ mainSections = ["posts"]
   ShowBreadCrumbs = false
   ShowToc = false
   
-  
-
 
 [params.cover]
   hideInList = true
@@ -22,4 +20,4 @@ mainSections = ["posts"]
 
 [params.homeInfoParams]
   title = "About"
-  content = "I'm Josh Stark, and I work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) where I serve on the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20)."
+  content = "Test. I'm Josh Stark, and I work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) where I serve on the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20)."
