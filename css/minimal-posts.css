@@ -1,0 +1,73 @@
+/* Custom minimal styling for post list */
+
+/* Hide cover images in post entries */
+.post-entry .entry-cover {
+    display: none !important;
+}
+
+/* Make post entries much more compact - single line style */
+.post-entry {
+    padding: 8px 0 !important;
+    margin-bottom: 4px !important;
+    border: none !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+/* Hide post content/excerpts */
+.post-entry .entry-content {
+    display: none !important;
+}
+
+/* Make post titles inline and smaller */
+.post-entry .entry-header h2 {
+    display: inline !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+}
+
+/* Style post footer (date/reading time) to appear first, inline */
+.post-entry .entry-footer {
+    display: inline !important;
+    margin-right: 12px !important;
+    font-size: 14px !important;
+    color: #666 !important;
+}
+
+/* Reorder: make footer appear before header using flexbox */
+.post-entry {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 0 !important;
+}
+
+.post-entry .entry-footer {
+    order: 1 !important;
+    flex-shrink: 0 !important;
+}
+
+.post-entry .entry-header {
+    order: 2 !important;
+    margin: 0 !important;
+}
+
+/* Remove hover effects */
+.post-entry:active {
+    transform: none !important;
+}
+
+.post-entry:hover {
+    background: transparent !important;
+}
+
+/* Style the entry link to be invisible */
+.post-entry .entry-link {
+    position: static !important;
+}
+
+/* Make sure dates are formatted consistently */
+.post-entry .entry-footer span {
+    white-space: nowrap;
+}
