@@ -31,10 +31,11 @@
     z-index: 10 !important;
 }
 
-/* Create a single line layout using inline elements */
+/* Create a single line layout using inline elements with proper alignment */
 .post-entry .entry-header,
 .post-entry .entry-footer {
-    display: inline !important;
+    display: inline-block !important;
+    vertical-align: baseline !important;
     margin: 0 !important;
 }
 
@@ -44,7 +45,8 @@
     font-size: 16px !important;
     font-weight: normal !important;
     margin: 0 !important;
-    line-height: 1.2 !important;
+    line-height: 1 !important;
+    vertical-align: baseline !important;
 }
 
 /* Style post footer (date/reading time) to appear first */
@@ -52,6 +54,8 @@
     font-size: 14px !important;
     color: #666 !important;
     margin-right: 12px !important;
+    line-height: 1 !important;
+    vertical-align: baseline !important;
 }
 
 /* Use CSS to reorder: footer first, then header */
