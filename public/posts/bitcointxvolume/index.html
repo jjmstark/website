@@ -1,295 +1,34 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="light">
-
-<head><script src="/website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=website/livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>What was Bitcoin&#39;s total transaction volume in 2021? | 0xstark</title>
-<meta name="keywords" content="hardness, ethereum">
-<meta name="description" content="test">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/website/posts/bitcointxvolume/">
-<link crossorigin="anonymous" href="/website/assets/css/stylesheet.dd709a46ff096d9985805ab8fd35a4d00c2a073f63c4dda63128b8490efd0a9f.css" integrity="sha256-3XCaRv8JbZmFgFq4/TWk0AwqBz9jxN2mMSi4SQ79Cp8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/website/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/website/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/website/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/website/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/website/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/website/posts/bitcointxvolume/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    }
-
-</script>
-</head>
-<body id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/website/" accesskey="h" title="0xstark (Alt + H)">
-                <img src="http://localhost:1313/target.png" alt="logo" style="height:30px; margin-right:8px; vertical-align:middle;">
-            </a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-        </ul>
-    </nav>
-</header>
-<main class="main">
-
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      What was Bitcoin&#39;s total transaction volume in 2021?
-    </h1>
-    <div class="post-description">
-      test
-    </div>
-    <div class="post-meta"><span title='2022-04-26 12:00:00 +0000 UTC'>April 26, 2022</span>&nbsp;·&nbsp;<span>8 min</span>
-
-</div>
-  </header> 
-  <div class="post-content"><p>By Josh Stark &amp; Bruno Lulinski</p>
-<p>In the Year in Ethereum 2021, we published a chart comparing the total transaction volume of the Ethereum and Bitcoin blockchains. Last year, Ethereum transferred approximately $11.6 trillion (ETH and ERC-20s), and Bitcoin transferred approximately $4.6 trillion (BTC and USDT).</p>
-<p><img alt="Year in Ethereum 2021" loading="lazy" src="/website/posts/bitcointxvolume/volumechart.png"></p>
-<p>After publishing, we saw a graph from Galaxy Digital claiming that in 2021 Bitcoin had settled $12.41 trillion USD:</p>
-<p><img alt="Galaxy Digital Research" loading="lazy" src="/website/posts/bitcointxvolume/galaxychart.png"></p>
-<p>Ark Invest also posted a chart with similar figures, showing Bitcoin settled $13.1 trillion:</p>
-<p><img alt="Ark Invest Research" loading="lazy" src="/website/posts/bitcointxvolume/arkchart.png"></p>
-<p>What’s going on here? Figuring this out was a fun mystery to work through, and along the way we learned a lot about the nuances of how different sources define and report on-chain metrics.</p>
-<p>TL;DR</p>
-<p>Different blockchain data providers sometimes use very similar terminology to describe completely different metrics
+<!doctype html><html lang=en dir=auto data-theme=light><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>What was Bitcoin's total transaction volume in 2021? | 0xstark</title><meta name=keywords content="hardness,ethereum"><meta name=description content="test"><meta name=author content><link rel=canonical href=https://jjmstark.github.io/website/posts/bitcointxvolume/><link crossorigin=anonymous href=/website/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://jjmstark.github.io/website/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jjmstark.github.io/website/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jjmstark.github.io/website/favicon-32x32.png><link rel=apple-touch-icon href=https://jjmstark.github.io/website/apple-touch-icon.png><link rel=mask-icon href=https://jjmstark.github.io/website/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://jjmstark.github.io/website/posts/bitcointxvolume/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"&&(document.querySelector("html").dataset.theme="dark")</script><meta property="og:url" content="https://jjmstark.github.io/website/posts/bitcointxvolume/"><meta property="og:site_name" content="0xstark"><meta property="og:title" content="What was Bitcoin's total transaction volume in 2021?"><meta property="og:description" content="test"><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-04-26T12:00:00+00:00"><meta property="article:modified_time" content="2022-04-26T12:00:00+00:00"><meta property="article:tag" content="Hardness"><meta property="article:tag" content="Ethereum"><meta name=twitter:card content="summary"><meta name=twitter:title content="What was Bitcoin's total transaction volume in 2021?"><meta name=twitter:description content="test"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://jjmstark.github.io/website/posts/"},{"@type":"ListItem","position":2,"name":"What was Bitcoin's total transaction volume in 2021?","item":"https://jjmstark.github.io/website/posts/bitcointxvolume/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"What was Bitcoin's total transaction volume in 2021?","name":"What was Bitcoin\u0027s total transaction volume in 2021?","description":"test","keywords":["hardness","ethereum"],"articleBody":"By Josh Stark \u0026 Bruno Lulinski\nIn the Year in Ethereum 2021, we published a chart comparing the total transaction volume of the Ethereum and Bitcoin blockchains. Last year, Ethereum transferred approximately $11.6 trillion (ETH and ERC-20s), and Bitcoin transferred approximately $4.6 trillion (BTC and USDT).\nAfter publishing, we saw a graph from Galaxy Digital claiming that in 2021 Bitcoin had settled $12.41 trillion USD:\nArk Invest also posted a chart with similar figures, showing Bitcoin settled $13.1 trillion:\nWhat’s going on here? Figuring this out was a fun mystery to work through, and along the way we learned a lot about the nuances of how different sources define and report on-chain metrics.\nTL;DR\nDifferent blockchain data providers sometimes use very similar terminology to describe completely different metrics Our lower figure from Coin Metrics excludes all UTXO change-related transactions and some internal transactions (e.g. within exchanges), which we believe is the best figure to use to compare to Ethereum The larger figures from Galaxy and Ark exclude only obvious or “naive” UTXO change transactions, and thus still include a significant amount of change \u0026 internal transactions The first thing we did of course was to review and triple-check our work to ensure that we had not made an error or misrepresented any data.\nOur graph was created using the following methodology, which is the same approach used for a similar graph in 2020:\nFor Ethereum, we are including transaction volume from ETH and all ERC-20 assets which had a volume of greater than $500M. This means we are under-counting Ethereum’s effective volume, since we’re missing the long-tail of ERC-20 activity, as well as other non ERC-20 assets like NFTs. For Bitcoin, we are including volume from BTC and also USDT on Omni. For all assets, we are using the “Adjusted Transfer Value” metric from Coin Metrics. Coin Metrics defines this as “The USD value of the sum of native units transferred that interval removing noise and certain artifacts”. The reason we chose this metric is because we want to show and compare “real” economic value transfer on each network, removing as much non-meaningful activity as possible. This is especially important since elsewhere in the post we compare these figures to Visa’s total settlement for the year. The calculation and data sources for this are documented in a google sheet here, which was linked in the original YiE 2021 post.\nAfter reviewing, we were very sure we had not made any errors.\nSo, we had a mystery. Why are Coin Metrics and Galaxy/ARK’s data diverging so significantly on what should be comparable figures?\nWe reached out to Galaxy Digital, Coin Metrics, and ARK Invest to see if they could help shed light on what was going on here. We benefited from the help of Kyle Waters from Coin Metrics, Jacob Panek at AllianceDAO (formerly of Coin Metrics), Nishita Jain from ARK Invest, and Rafael Schultze-Kraft from Glassnode. Unfortunately Galaxy Digital never got back to us.\nThe first thing we wanted to understand was the Coin Metrics data we were relying on.\nCoin Metrics has two relevant metrics here:\n“Transferred Value” ($13T in 2021 for Bitcoin) “Adjusted Transfer Value” ($4T) which we used in our chart Both of these metrics remove “obvious change”. If you’re only familiar with how Ethereum and other EVM chains work, you might be unfamiliar with change outputs and the Bitcoin UTXO model.\nEthereum uses an “account” model, which is easy to understand intuitively: addresses are like accounts, and they own sums of assets like ETH and ERC-20s. In Bitcoin, addresses own discrete “Unspent Transaction Outputs” (UTXOs). So if you have 5 BTC, what you actually have might be a UTXO with 2 BTC, and a UTXO with 3 BTC, both controlled by your wallet.\nAnytime you transfer Bitcoin, you are “using up” one of those UTXOs. So imagine you want to send only 0.5 BTC to someone. Your wallet will “spend” the whole 2 BTC UTXO, sending 0.5 to your recipient (creating a new UTXO of 0.5 BTC), and sending 1.5 BTC back to you in a new UTXO containing 1.5 BTC. Here’s a more in-depth explanation.\nSo, when measuring total transaction volume on Bitcoin, data sites typically filter out “change outputs” like the 1.5 BTC transfer in the example above, because no money is actually changing hands. It’s just something required by the UTXO model. Only the 0.5 represents “real” economic activity.\nSome change transactions are very easy to identify. For instance, when a change output gets sent back to the same address that sent the transaction, this is “obvious change”. However sometimes people use different addresses to receive their change (this is generally a good security practice), meaning not all change will be captured by this heuristic.\nSo both figures provided by Coin Metrics remove obvious change. The Adjusted Transfer Value (ATV) metric that we used for our graph goes further, by using two additional heuristics to remove non-meaningful transactions:\nATV removes transactions that are assumed to be change due to their use of round numbers. For example, if a UTXO is split into 2.0000 BTC and 0.195482 BTC, we might assume that the latter is change. ATV also removes “early spend” transactions. These are transactions that are sent, and then re-sent shortly afterwards, maybe multiple times. This is a common heuristic that is used to identify transactions that are internal (e.g. moving money around within an exchange), or related to the operation of an application like a mixer. ATV also makes several adjustments which apply to ETH and ERC-20s, like removing pass-through accounts, which arise from events like exchange deposits or flash loans. Around the same time, we heard back from Nishita at ARK Invest. She shared that the $13T figure from the graph came from Glassnode, specifically their “change-adjusted volume” metric. This metric is defined by Glassnode as “The total amount of coins transferred on-chain, adjusted by change volume. Only successful transfers are counted”.\nWe then reached out to Glassnode to learn more about this metric. Rafael told us that Glassnode uses three different metrics for volume:\nNaive volume: ~$48 trillion for BTC in 2021 Change-adjusted volume: ~$13 trillion for BTC in 2021 Entity-adjusted: ~$3.3 trillion for BTC in 2021 At this point, the picture is starting to come together clearly:\nCoin Metrics and Glassnode each report a volume figure that adjusts for obvious change transactions, showing approximately $13 trillion 2021. However they label them differently: Coin Metrics calls this “Transfer Volume” and Glassnode labels this “Change-adjusted Volume”. Coin Metrics and Glassnode each report a volume figure that makes further adjustments, though they diverge on what adjustments they are making leading to different figures. Coin Metrics calls this “Adjusted Transfer Volume” and it removes even-amount change and early-spend transactions, which results in a figure of $4T. Glassnode uses proprietary methods to remove various transactions within clusters of accounts which are believed to be controlled by single entities, which results in a figure of $3.3T. These different metrics explain the discrepancy between our graph and ARK/Galaxy Digital’s graph. Our graph is showing the second figure, which adjusts all change and a lot of “internal” transactions ($4.6T). ARK/Galaxy are showing a mostly-unadjusted figure, which would still capture significant amounts of change and internal transactions ($13T). Both are true, they are just measuring different things. Phew! Mystery solved.\nIn conclusion, here’s what we take away from this:\nThe terms used across different blockchain data providers are not always consistent. In this case, “adjusted” and “unadjusted” were used to mean different things between Coin Metrics and Glassnode. If you’re using data from multiple sources, be very careful to learn the details of what your metrics are measuring. For the purposes of our chart comparing Ethereum and Bitcoin volume, we should continue to use metrics that remove as much change as possible from the Bitcoin data. Because Ethereum does not use a UTXO model, only by removing all change outputs are we making a fair comparison. Frankly, data that includes change outputs is not a very useful indicator of any kind of real economic activity or user adoption. That means we should use either Coin Metric’s adjusted transfer volume, or Glassnode’s entity adjusted volume. Unfortunately neither provider offers a metric that only removes as much change as possible, but does not make other adjustments (e.g. for intra-entity transactions). One challenge with this according to Coin Metrics is that there is a lot of overlap between these approaches - for instance, users withdrawing from an exchange, and the exchange receiving change back to their own address. Are volume metrics which do not exclude internal transactions useful? This really depends on your goal. Internal transactions obviously do not represent “real” economic activity, since they are just one person or one entity moving money between wallets they control. Sharing these figures without explaining that they include internal transactions can be very misleading, because readers might assume that these figures represent the “common sense” meaning of a transaction, which is between different persons or entities. However, these transfers are still taking place on-chain, with fees being paid for them - they indicate something about the capacity of a network to settle value, and are useful for understanding fee market dynamics. Further reading:\nFollowing our conversations, Coin Metrics published a report digging into some of the details of how they do this: https://coinmetrics.io/on-chain-volume/ NYDIG also published a useful article about the complexities of calculating transaction volume on Bitcoin’s blockchain and pointing out the differences between Glassnode and Coin Metrics transaction volume, as described above:\nhttps://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes\n","wordCount":"1592","inLanguage":"en","datePublished":"2022-04-26T12:00:00Z","dateModified":"2022-04-26T12:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://jjmstark.github.io/website/posts/bitcointxvolume/"},"publisher":{"@type":"Organization","name":"0xstark","logo":{"@type":"ImageObject","url":"https://jjmstark.github.io/website/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://jjmstark.github.io/website/ accesskey=h title="0xstark (Alt + H)">0xstark</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">What was Bitcoin's total transaction volume in 2021?</h1><div class=post-description>test</div><div class=post-meta><span title='2022-04-26 12:00:00 +0000 UTC'>April 26, 2022</span>&nbsp;·&nbsp;<span>8 min</span></div></header><div class=post-content><p>By Josh Stark & Bruno Lulinski</p><p>In the Year in Ethereum 2021, we published a chart comparing the total transaction volume of the Ethereum and Bitcoin blockchains. Last year, Ethereum transferred approximately $11.6 trillion (ETH and ERC-20s), and Bitcoin transferred approximately $4.6 trillion (BTC and USDT).</p><p><img alt="Year in Ethereum 2021" loading=lazy src=/website/posts/bitcointxvolume/volumechart.png></p><p>After publishing, we saw a graph from Galaxy Digital claiming that in 2021 Bitcoin had settled $12.41 trillion USD:</p><p><img alt="Galaxy Digital Research" loading=lazy src=/website/posts/bitcointxvolume/galaxychart.png></p><p>Ark Invest also posted a chart with similar figures, showing Bitcoin settled $13.1 trillion:</p><p><img alt="Ark Invest Research" loading=lazy src=/website/posts/bitcointxvolume/arkchart.png></p><p>What’s going on here? Figuring this out was a fun mystery to work through, and along the way we learned a lot about the nuances of how different sources define and report on-chain metrics.</p><p>TL;DR</p><p>Different blockchain data providers sometimes use very similar terminology to describe completely different metrics
 Our lower figure from Coin Metrics excludes all UTXO change-related transactions and some internal transactions (e.g. within exchanges), which we believe is the best figure to use to compare to Ethereum
-The larger figures from Galaxy and Ark exclude only obvious or “naive” UTXO change transactions, and thus still include a significant amount of change &amp; internal transactions
-The first thing we did of course was to review and triple-check our work to ensure that we had not made an error or misrepresented any data.</p>
-<p>Our graph was created using the following methodology, which is the same approach used for a similar graph in 2020:</p>
-<p>For Ethereum, we are including transaction volume from ETH and all ERC-20 assets which had a volume of greater than $500M.
+The larger figures from Galaxy and Ark exclude only obvious or “naive” UTXO change transactions, and thus still include a significant amount of change & internal transactions
+The first thing we did of course was to review and triple-check our work to ensure that we had not made an error or misrepresented any data.</p><p>Our graph was created using the following methodology, which is the same approach used for a similar graph in 2020:</p><p>For Ethereum, we are including transaction volume from ETH and all ERC-20 assets which had a volume of greater than $500M.
 This means we are under-counting Ethereum’s effective volume, since we’re missing the long-tail of ERC-20 activity, as well as other non ERC-20 assets like NFTs.
 For Bitcoin, we are including volume from BTC and also USDT on Omni.
 For all assets, we are using the “Adjusted Transfer Value” metric from Coin Metrics. Coin Metrics defines this as “The USD value of the sum of native units transferred that interval removing noise and certain artifacts”.
 The reason we chose this metric is because we want to show and compare “real” economic value transfer on each network, removing as much non-meaningful activity as possible. This is especially important since elsewhere in the post we compare these figures to Visa’s total settlement for the year.
-The calculation and data sources for this are documented in a google sheet here, which was linked in the original YiE 2021 post.</p>
-<p>After reviewing, we were very sure we had not made any errors.</p>
-<p>So, we had a mystery. Why are Coin Metrics and Galaxy/ARK’s data diverging so significantly on what should be comparable figures?</p>
-<p>We reached out to Galaxy Digital, Coin Metrics, and ARK Invest to see if they could help shed light on what was going on here. We benefited from the help of Kyle Waters from Coin Metrics, Jacob Panek at AllianceDAO (formerly of Coin Metrics), Nishita Jain from ARK Invest, and Rafael Schultze-Kraft from Glassnode. Unfortunately Galaxy Digital never got back to us.</p>
-<p>The first thing we wanted to understand was the Coin Metrics data we were relying on.</p>
-<p>Coin Metrics has two relevant metrics here:</p>
-<p>“Transferred Value” (<del>$13T in 2021 for Bitcoin)
+The calculation and data sources for this are documented in a google sheet here, which was linked in the original YiE 2021 post.</p><p>After reviewing, we were very sure we had not made any errors.</p><p>So, we had a mystery. Why are Coin Metrics and Galaxy/ARK’s data diverging so significantly on what should be comparable figures?</p><p>We reached out to Galaxy Digital, Coin Metrics, and ARK Invest to see if they could help shed light on what was going on here. We benefited from the help of Kyle Waters from Coin Metrics, Jacob Panek at AllianceDAO (formerly of Coin Metrics), Nishita Jain from ARK Invest, and Rafael Schultze-Kraft from Glassnode. Unfortunately Galaxy Digital never got back to us.</p><p>The first thing we wanted to understand was the Coin Metrics data we were relying on.</p><p>Coin Metrics has two relevant metrics here:</p><p>“Transferred Value” (<del>$13T in 2021 for Bitcoin)
 “Adjusted Transfer Value” (</del>$4T) which we used in our chart
-Both of these metrics remove “obvious change”. If you’re only familiar with how Ethereum and other EVM chains work, you might be unfamiliar with change outputs and the Bitcoin UTXO model.</p>
-<p>Ethereum uses an “account” model, which is easy to understand intuitively: addresses are like accounts, and they own sums of assets like ETH and ERC-20s. In Bitcoin, addresses own discrete “Unspent Transaction Outputs” (UTXOs). So if you have 5 BTC, what you actually have might be a UTXO with 2 BTC, and a UTXO with 3 BTC, both controlled by your wallet.</p>
-<p>Anytime you transfer Bitcoin, you are “using up” one of those UTXOs. So imagine you want to send only 0.5 BTC to someone. Your wallet will “spend” the whole 2 BTC UTXO, sending 0.5 to your recipient (creating a new UTXO of 0.5 BTC), and sending 1.5 BTC back to you in a new UTXO containing 1.5 BTC. Here’s a more in-depth explanation.</p>
-<p>So, when measuring total transaction volume on Bitcoin, data sites typically filter out “change outputs” like the 1.5 BTC transfer in the example above, because no money is actually changing hands. It’s just something required by the UTXO model. Only the 0.5 represents “real” economic activity.</p>
-<p>Some change transactions are very easy to identify. For instance, when a change output gets sent back to the same address that sent the transaction, this is “obvious change”. However sometimes people use different addresses to receive their change (this is generally a good security practice), meaning not all change will be captured by this heuristic.</p>
-<p>So both figures provided by Coin Metrics remove obvious change. The Adjusted Transfer Value (ATV) metric that we used for our graph goes further, by using two additional heuristics to remove non-meaningful transactions:</p>
-<p>ATV removes transactions that are assumed to be change due to their use of round numbers. For example, if a UTXO is split into 2.0000 BTC and 0.195482 BTC, we might assume that the latter is change.
+Both of these metrics remove “obvious change”. If you’re only familiar with how Ethereum and other EVM chains work, you might be unfamiliar with change outputs and the Bitcoin UTXO model.</p><p>Ethereum uses an “account” model, which is easy to understand intuitively: addresses are like accounts, and they own sums of assets like ETH and ERC-20s. In Bitcoin, addresses own discrete “Unspent Transaction Outputs” (UTXOs). So if you have 5 BTC, what you actually have might be a UTXO with 2 BTC, and a UTXO with 3 BTC, both controlled by your wallet.</p><p>Anytime you transfer Bitcoin, you are “using up” one of those UTXOs. So imagine you want to send only 0.5 BTC to someone. Your wallet will “spend” the whole 2 BTC UTXO, sending 0.5 to your recipient (creating a new UTXO of 0.5 BTC), and sending 1.5 BTC back to you in a new UTXO containing 1.5 BTC. Here’s a more in-depth explanation.</p><p>So, when measuring total transaction volume on Bitcoin, data sites typically filter out “change outputs” like the 1.5 BTC transfer in the example above, because no money is actually changing hands. It’s just something required by the UTXO model. Only the 0.5 represents “real” economic activity.</p><p>Some change transactions are very easy to identify. For instance, when a change output gets sent back to the same address that sent the transaction, this is “obvious change”. However sometimes people use different addresses to receive their change (this is generally a good security practice), meaning not all change will be captured by this heuristic.</p><p>So both figures provided by Coin Metrics remove obvious change. The Adjusted Transfer Value (ATV) metric that we used for our graph goes further, by using two additional heuristics to remove non-meaningful transactions:</p><p>ATV removes transactions that are assumed to be change due to their use of round numbers. For example, if a UTXO is split into 2.0000 BTC and 0.195482 BTC, we might assume that the latter is change.
 ATV also removes “early spend” transactions. These are transactions that are sent, and then re-sent shortly afterwards, maybe multiple times. This is a common heuristic that is used to identify transactions that are internal (e.g. moving money around within an exchange), or related to the operation of an application like a mixer.
 ATV also makes several adjustments which apply to ETH and ERC-20s, like removing pass-through accounts, which arise from events like exchange deposits or flash loans.
-Around the same time, we heard back from Nishita at ARK Invest. She shared that the $13T figure from the graph came from Glassnode, specifically their “change-adjusted volume” metric. This metric is defined by Glassnode as “The total amount of coins transferred on-chain, adjusted by change volume. Only successful transfers are counted”.</p>
-<p>We then reached out to Glassnode to learn more about this metric. Rafael told us that Glassnode uses three different metrics for volume:</p>
-<p>Naive volume: ~$48 trillion for BTC in 2021
+Around the same time, we heard back from Nishita at ARK Invest. She shared that the $13T figure from the graph came from Glassnode, specifically their “change-adjusted volume” metric. This metric is defined by Glassnode as “The total amount of coins transferred on-chain, adjusted by change volume. Only successful transfers are counted”.</p><p>We then reached out to Glassnode to learn more about this metric. Rafael told us that Glassnode uses three different metrics for volume:</p><p>Naive volume: ~$48 trillion for BTC in 2021
 Change-adjusted volume: ~$13 trillion for BTC in 2021
 Entity-adjusted: ~$3.3 trillion for BTC in 2021
-At this point, the picture is starting to come together clearly:</p>
-<p>Coin Metrics and Glassnode each report a volume figure that adjusts for obvious change transactions, showing approximately $13 trillion 2021. However they label them differently: Coin Metrics calls this “Transfer Volume” and Glassnode labels this “Change-adjusted Volume”.
+At this point, the picture is starting to come together clearly:</p><p>Coin Metrics and Glassnode each report a volume figure that adjusts for obvious change transactions, showing approximately $13 trillion 2021. However they label them differently: Coin Metrics calls this “Transfer Volume” and Glassnode labels this “Change-adjusted Volume”.
 Coin Metrics and Glassnode each report a volume figure that makes further adjustments, though they diverge on what adjustments they are making leading to different figures. Coin Metrics calls this “Adjusted Transfer Volume” and it removes even-amount change and early-spend transactions, which results in a figure of $4T. Glassnode uses proprietary methods to remove various transactions within clusters of accounts which are believed to be controlled by single entities, which results in a figure of $3.3T.
 These different metrics explain the discrepancy between our graph and ARK/Galaxy Digital’s graph. Our graph is showing the second figure, which adjusts all change and a lot of “internal” transactions ($4.6T). ARK/Galaxy are showing a mostly-unadjusted figure, which would still capture significant amounts of change and internal transactions ($13T).
 Both are true, they are just measuring different things.
-Phew! Mystery solved.</p>
-<p>In conclusion, here’s what we take away from this:</p>
-<p>The terms used across different blockchain data providers are not always consistent. In this case, “adjusted” and “unadjusted” were used to mean different things between Coin Metrics and Glassnode. If you’re using data from multiple sources, be very careful to learn the details of what your metrics are measuring.
+Phew! Mystery solved.</p><p>In conclusion, here’s what we take away from this:</p><p>The terms used across different blockchain data providers are not always consistent. In this case, “adjusted” and “unadjusted” were used to mean different things between Coin Metrics and Glassnode. If you’re using data from multiple sources, be very careful to learn the details of what your metrics are measuring.
 For the purposes of our chart comparing Ethereum and Bitcoin volume, we should continue to use metrics that remove as much change as possible from the Bitcoin data. Because Ethereum does not use a UTXO model, only by removing all change outputs are we making a fair comparison. Frankly, data that includes change outputs is not a very useful indicator of any kind of real economic activity or user adoption.
 That means we should use either Coin Metric’s adjusted transfer volume, or Glassnode’s entity adjusted volume. Unfortunately neither provider offers a metric that only removes as much change as possible, but does not make other adjustments (e.g. for intra-entity transactions). One challenge with this according to Coin Metrics is that there is a lot of overlap between these approaches - for instance, users withdrawing from an exchange, and the exchange receiving change back to their own address.
 Are volume metrics which do not exclude internal transactions useful? This really depends on your goal. Internal transactions obviously do not represent “real” economic activity, since they are just one person or one entity moving money between wallets they control. Sharing these figures without explaining that they include internal transactions can be very misleading, because readers might assume that these figures represent the “common sense” meaning of a transaction, which is between different persons or entities.
 However, these transfers are still taking place on-chain, with fees being paid for them - they indicate something about the capacity of a network to settle value, and are useful for understanding fee market dynamics.
-Further reading:</p>
-<p>Following our conversations, Coin Metrics published a report digging into some of the details of how they do this: <a href="https://coinmetrics.io/on-chain-volume/">https://coinmetrics.io/on-chain-volume/</a>
-NYDIG also published a useful article  about the complexities of calculating transaction volume on Bitcoin’s blockchain and pointing out the differences between Glassnode and Coin Metrics transaction volume, as described above:</p>
-<p><img alt="https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes" loading="lazy" src="/website/posts/bitcointxvolume/nydigchart.png"></p>
-<p><a href="https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes">https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes</a></p>
-
-
-  </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="http://localhost:1313/website/tags/hardness/">Hardness</a></li>
-      <li><a href="http://localhost:1313/website/tags/ethereum/">Ethereum</a></li>
-    </ul>
-<nav class="paginav">
-  <a class="prev" href="http://localhost:1313/website/posts/hardness/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>Ethereum&#39;s distinctive property is hardness</span>
-  </a>
-  <a class="next" href="http://localhost:1313/website/posts/aib/">
-    <span class="title">Next »</span>
-    <br>
-    <span>Atoms, Institutions, Blockchains</span>
-  </a>
-</nav>
-
-  </footer>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/website/">0xstark</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
-</script>
-</body>
-
-</html>
+Further reading:</p><p>Following our conversations, Coin Metrics published a report digging into some of the details of how they do this: <a href=https://coinmetrics.io/on-chain-volume/>https://coinmetrics.io/on-chain-volume/</a>
+NYDIG also published a useful article about the complexities of calculating transaction volume on Bitcoin’s blockchain and pointing out the differences between Glassnode and Coin Metrics transaction volume, as described above:</p><p><img alt=https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes loading=lazy src=/website/posts/bitcointxvolume/nydigchart.png></p><p><a href=https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes>https://viewemail.nydig.com/the-complexities-of-measuring-transaction-volumes</a></p></div><footer class=post-footer><ul class=post-tags><li><a href=https://jjmstark.github.io/website/tags/hardness/>Hardness</a></li><li><a href=https://jjmstark.github.io/website/tags/ethereum/>Ethereum</a></li></ul><nav class=paginav><a class=prev href=https://jjmstark.github.io/website/posts/hardness/><span class=title>« Prev</span><br><span>Ethereum's distinctive property is hardness</span>
+</a><a class=next href=https://jjmstark.github.io/website/posts/aib/><span class=title>Next »</span><br><span>Atoms, Institutions, Blockchains</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://jjmstark.github.io/website/>0xstark</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
