@@ -87,3 +87,50 @@
 .post-entry .entry-footer span {
     white-space: nowrap;
 }
+
+/* Global link colors for light and dark themes */
+/* Light mode: default blue links */
+html[data-theme="light"] a,
+html[data-theme="auto"] a {
+    color: #0066cc !important;
+}
+
+/* Dark mode: orange links */
+html[data-theme="dark"] a {
+    color: #ff8c00 !important;
+}
+
+/* Handle auto theme based on system preference when no data-theme is set */
+@media (prefers-color-scheme: light) {
+    html:not([data-theme]) a {
+        color: #0066cc !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme]) a {
+        color: #ff8c00 !important;
+    }
+}
+
+/* Ensure visited links maintain the theme colors */
+html[data-theme="light"] a:visited,
+html[data-theme="auto"] a:visited {
+    color: #0066cc !important;
+}
+
+html[data-theme="dark"] a:visited {
+    color: #ff8c00 !important;
+}
+
+@media (prefers-color-scheme: light) {
+    html:not([data-theme]) a:visited {
+        color: #0066cc !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme]) a:visited {
+        color: #ff8c00 !important;
+    }
+}
