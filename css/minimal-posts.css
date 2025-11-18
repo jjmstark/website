@@ -62,9 +62,19 @@
     background: transparent !important;
 }
 
-/* Style the entry link to be invisible */
+/* Keep the entry link functional but invisible overlay */
 .post-entry .entry-link {
-    position: static !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    z-index: 1 !important;
+}
+
+/* Make the post entry relative positioned for absolute link */
+.post-entry {
+    position: relative !important;
 }
 
 /* Make sure dates are formatted consistently */
